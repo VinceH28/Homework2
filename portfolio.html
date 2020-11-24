@@ -11,6 +11,43 @@
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
   crossorigin="anonymous"/>
+
+ 
+  <style>
+  /*Page Background color*/
+  .background-color {
+      background-color: #0e0f0f17;
+      color: rgb(15, 15, 15), 0, 0);
+      width: 100%;
+    }
+
+  /*thumbnails setup*/
+  .thumbnails{
+    width: 540px;
+    vertical-align: top;
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+    }
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+
+  /*Footer*/
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(85, 85, 85);
+      color: rgb(0, 0, 0), 0, 0);
+      text-align: center;
+    };
+
+    </style>
 </head>
 
 <body>
@@ -19,10 +56,11 @@
     <div class="container-md"></div>
     <div class="container-lg"></div>
     <div class="container-xl"></div>
+    <div class="background-color"></div>
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Vincent J. Hart</a>
+        <a class="navbar-brand" href="https://vinceh28.github.io/Homework2/">Vincent J. Hart</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,23 +68,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="https://vinceh28.github.io/Homework2/"> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="https://vinceh28.github.io/Homework2/portfolio"> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://vinceh28.github.io/Homework2/">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="https://vinceh28.github.io/Homework2/portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-            <li class="nav-item">
+            </li><li class="nav-item">
              <a class="nav-link" href="https://vinceh28.github.io/Homework2/contact">Contact</a>
             </li>
-              </div>
-            </li>
+            
           </ul>
         </div>
       </nav>
 
     <!-- jumbo tron header with picture -->
+    <section class="background-color">
+
     <div class="jumbotron">
         <h1 class="display-4">My Porfolio</h1>
         <p class="lead">This is a simple intro to my Portfolio.</p>
@@ -55,33 +94,43 @@
         <a class="btn btn-primary btn-lg" href="#" role="button">Catalog</a>
         <a class="btn btn-primary btn-lg" href="#" role="button">Photos</a>
       </div>
-
-      <section>
+      <div class="background-color"></div>
+      
+         
           <h2 id="Catalog">Catalog</h2>
 
-          <p> Under Mainteance</p>;
+          <p> Under Mainteance</p>
 
-          <h2 id="Photos">Photos</h2>
+          <section class="background-color" class="jumbotron">
+            <h2 id="Photos">Photos</h2>
 
-          <p>Here's a few images to describe me!</p>
+            <p>Here's a few images to describe me!</p>
 
-          <div>
-              <img src="https://lh3.googleusercontent.com/pw/ACtC-3dUoTjzpZ8XLrIa8M4in6n-bG7OLzbEsTaq3mvk-XseBPumn76vCproszmKkfcxVmMARpGhXx2vW-6Qp9Y9uZj9UqTZVXknoY24RR1aJ0KSyRtIuQwnoiWacCS9yrq7kPI1ObYYwHxaJR6ILxJYjvgU=w1064-h1418-no?authuser=0" alt="Photo of me and my daughter"
-              style="float:left;width:500px;height:500px">
+            <div class="background-color">
+              <img src="https://lh3.googleusercontent.com/pw/ACtC-3dUoTjzpZ8XLrIa8M4in6n-bG7OLzbEsTaq3mvk-XseBPumn76vCproszmKkfcxVmMARpGhXx2vW-6Qp9Y9uZj9UqTZVXknoY24RR1aJ0KSyRtIuQwnoiWacCS9yrq7kPI1ObYYwHxaJR6ILxJYjvgU=w1064-h1418-no?authuser=0" 
+              alt="Photo of me and my daughter"
+              style="width: 540px; margin-left: auto; margin-right: auto;"></a>
               
-              <img src="https://media.sweetwater.com/images/items/750/DRKT81N350-large.jpg?v=4b70f8cd6f089561" alt="picture of oak DW studio drumset"
-              style="float:right;width:500px;height:500px">
+              <img src="https://media.sweetwater.com/images/items/750/DRKT81N350-large.jpg?v=4b70f8cd6f089561" 
+              alt="picture of oak DW studio drumset"
+              style="width: 540px; margin-top:auto; margin-left: auto; margin-right: auto;">
 
-              <img src="https://cnet2.cbsistatic.com/img/XzksFTD0gbxDvOIG5_XeHEiG-jI=/420x236/2020/10/27/8a5b615a-c5ff-4d4d-bdbd-c58e9e6543af/xbox-series-x-s-console-hoyle-studio-promo-23.jpg" alt="picture of game console Xbox X Series with controller"
-              style= "float:left;width: 500px;height:500px">
+              <img src="https://cnet2.cbsistatic.com/img/XzksFTD0gbxDvOIG5_XeHEiG-jI=/420x236/2020/10/27/8a5b615a-c5ff-4d4d-bdbd-c58e9e6543af/xbox-series-x-s-console-hoyle-studio-promo-23.jpg" 
+              alt="picture of game console Xbox X Series with controller"
+              style= "width: 540px; margin-top:auto; margin-left: auto; margin-right: auto;">
             
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQna3LhTU1XIm7GOWrXAAvb0j3PrUlZYa-LoQ&usqp=CAU" alt="image of multiple types of sport logos"
-              style="float: right;width: 500px;height: 500px;">
-      </section>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQna3LhTU1XIm7GOWrXAAvb0j3PrUlZYa-LoQ&usqp=CAU" 
+              alt="image of multiple types of sport logos"
+              style="width: 540px; margin-top:auto; margin-left: auto; margin-right: auto;">
+            </div>
+          </section>
+        
+  </section>
   
     <div class="footer">
       <p>Author: Vincent Hart<br>
-      <a href="mailto:vincenthart28@gmail.com"><vincenthart28@gmail class="com"></vincenthart28@gmail></a></p>
+      <a href="mailto:vincenthart28@gmail.com"><vincenthart28@gmail class="com"></vincenthart28@gmail></a>
+    </p>
     </div>  
 </body>
 
