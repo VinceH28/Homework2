@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Portfolio - Contact</title>
+
+<!-- Boost Strap Link -->
+<link 
+  rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"/>
+
+</head>
+<body>
+
+ <!-- Page Layout Elements-->
+    <div class="container"></div>
+    <div class="container-sm"></div>
+    <div class="container-md"></div>
+    <div class="container-lg"></div>
+    <div class="container-xl"></div>
+
+ <!--Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Vincent J. Hart</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="C:\Users\Vince\OneDrive\Desktop\Columbia Bootcamp\02-CSS-Bootstrap\cu-nyc-fsf-pt-10-2020-u-c-master-02-CSS-Bootstrap\02-CSS-Bootstrap\02-Homework\contact.html"> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="C:\Users\Vince\OneDrive\Desktop\Columbia Bootcamp\02-CSS-Bootstrap\cu-nyc-fsf-pt-10-2020-u-c-master-02-CSS-Bootstrap\02-CSS-Bootstrap\02-Homework\index.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="C:\Users\Vince\OneDrive\Desktop\Columbia Bootcamp\02-CSS-Bootstrap\cu-nyc-fsf-pt-10-2020-u-c-master-02-CSS-Bootstrap\02-CSS-Bootstrap\02-Homework\portfolio.html">Profolio</a>
+        <li class="nav-item">
+         <a class="nav-link" href="C:\Users\Vince\OneDrive\Desktop\Columbia Bootcamp\02-CSS-Bootstrap\cu-nyc-fsf-pt-10-2020-u-c-master-02-CSS-Bootstrap\02-CSS-Bootstrap\02-Homework\contact.html">Contact</a>
+        </ul>
+        </nav>
+
+<h2>Contact Form</h2>
+
+  <!-- Style Layout for Contact Form -->
+<style>
+    input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+
+    <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First & last name..">
+
+    <label for="contact">Best Contact Method</label>
+    <select id="country" name="contact">
+      <option value="phone">Phone</option>
+      <option value="email">Email</option>
+    </select>
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Place email address here..">
+    <label for="phonenumber">Phone Number</label>
+    <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+
+<footer>
+    <p>Author: Vincent Hart<br>
+    <a href="mailto:vincenthart28@gmail.com"><vincenthart28@gmail class="com"></vincenthart28@gmail></a></p>
+  </footer>
+  
+</html>
